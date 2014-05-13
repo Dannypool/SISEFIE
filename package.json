@@ -1,0 +1,22 @@
+{
+  "name": "SISEFIE",
+  "version": "0.0.0",
+  "description": "Salvando el semestre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dannypool/SISEFIE.git"
+  },
+  "keywords": [
+    "SISEFIE"
+  ],
+  "author": "Daniel Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dannypool/SISEFIE/issues"
+  },
+  "homepage": "https://github.com/Dannypool/SISEFIE"
+}
