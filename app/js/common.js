@@ -4,9 +4,24 @@ requirejs.config({
   baseUrl: './js',
   paths: {
     'jquery':                   'vendor/jquery',
-    'bootstrap':                'vendor/bootstrap'
+    'bootstrap':                'vendor/bootstrap',
+    'backbone': 'vendor/backbone',
+    'underscore': 'vendor/underscore',
+    'template': '../../templates'
   },
   shim: {
-    'bootstrap':                ['jquery']
+    'bootstrap':                ['jquery'],
+    'backbone': ['underscore']
+
   }
+});
+
+require([
+  // Load our app module and pass it to our definition function
+  'app/GFE/main-gfe',
+
+], function(App){
+  // The "app" dependency is passed in as "App"
+  // Again, the other dependencies passed in are not "AMD" therefore don't pass a parameter to this function
+  App.initialize();
 });
