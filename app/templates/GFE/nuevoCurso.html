@@ -3,15 +3,82 @@
         <div class="panel panel-default">
             <div class="panel-heading">
             	 <!-- Nav tabs -->
-                <ul class="nav nav-tabs">
-                    nuevo Curso
-                </ul>
+                Nuevo Curso
             </div>
             <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, a fugit porro laboriosam totam neque dolorem voluptas at placeat ad assumenda sapiente similique iste eos sed ducimus amet adipisci animi.
+                <form role="form">
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label >Nombre del curso</label>
+                            <input class="form-control">
+                        </div>
+                        <div class="form-group col-md-8">
+                            <label >Descripcion del curso</label>
+                            <input class="form-control">
+                        </div>             
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-5">
+                            <label >Instructor</label>
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-offset-1 col-md-3">
+                            <label >Cupo minimo</label>
+                            <input class="form-control">
+                        </div>   
+                        <div class="form-group col-md-3">
+                            <label >Cupo maximo</label>
+                            <input class="form-control">
+                        </div>             
+                    </div>
+                    <div class="row"> 
+                        <div class="form-group col-md-3">
+                            <label >Fecha inicio del curso</label>
+                            <div class="input-group date customhourpicker">
+                                <input type="text" required class="form-control input-sm" id="txtHoraAudienciaTermino">
+                                <span class="input-group-addon input-sm">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label >Fecha termimo del curso</label>
+                            <div class="input-group date customhourpicker">
+                                <input type="text" required class="form-control input-sm" id="txtHoraAudienciaTermino">
+                                <span class="input-group-addon input-sm">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div> 
+                        <div class="form-group col-md-3">
+                            <label >Inicio de inscripcion</label>
+                            <div class="input-group date customhourpicker">
+                                <input type="text" required class="form-control input-sm" id="txtHoraAudienciaTermino">
+                                <span class="input-group-addon input-sm">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label >Fin de inscripcion</label>
+                            <div class="input-group date customhourpicker">
+                                <input type="text" required class="form-control input-sm" id="txtHoraAudienciaTermino">
+                                <span class="input-group-addon input-sm">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>  
+                    </div>
+                </form>
             </div>
             <div class="panel-footer">
-                Panel footer
+                <button type="button" class="btn btn-success">Guardar Curso</button>
             </div>
         </div>
     </div>
