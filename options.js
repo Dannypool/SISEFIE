@@ -27,9 +27,9 @@ module.exports = {
       exclude: ['common']
     },
 
-    // {
-    //   name: 'app/main-contact',
-    //   exclude: ['common']
-    // }
+    {
+      name: 'app/GFE/main-gfe',
+      exclude: ['common']
+    }
   ]
 };
