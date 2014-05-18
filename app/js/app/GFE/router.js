@@ -47,7 +47,7 @@ define([
       // 'views/projects/list'
       $('#contenido').empty();
       var nuevoAspiranteView = new NuevoAspiranteView();
-      nuevoAspiranteView.render();
+      
     });
 
     app_router.on('route:ModificarAspirante', function(){
