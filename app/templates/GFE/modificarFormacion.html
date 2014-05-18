@@ -2,16 +2,123 @@
 	<div class="row">
         <div class="panel panel-default">
             <div class="panel-heading">
-            	 <!-- Nav tabs -->
-                <ul class="nav nav-tabs">
-                    modificar formacion
-                </ul>
+            	 Insertar Calificacion
             </div>
             <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, a fugit porro laboriosam totam neque dolorem voluptas at placeat ad assumenda sapiente similique iste eos sed ducimus amet adipisci animi.
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>#Id</th>
+                          <th>Ubicacion</th>
+                          <th>Estatus</th>
+                          <th>Lista de alumnos Inscritos</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Oaxaca</td>
+                          <td>Activo</td>
+                          <td><button type="button" class="btn btn-link">Ver</button></td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Chihuahua</td>
+                          <td>Activo</td>
+                          <td><button type="button" class="btn btn-link">Ver</button></td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Oaxaca</td>
+                          <td>Suspendido</td>
+                          <td><button type="button" class="btn btn-link">Ver</button></td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>Michoacan</td>
+                          <td>Cancelado</td>
+                          <td><button type="button" class="btn btn-link">Ver</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
             </div>
             <div class="panel-footer">
-                Panel footer
+                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default" id="lista-aspirantes">
+            <div class="panel-heading">
+                 Alumnos
+            </div>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>#Id</th>
+                          <th>Nombre</th>
+                          <th>Apellido</th>
+                          <th>Calificacion</th>
+                          <th>Modificar</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>10012</td>
+                          <td>Rogelio</td>
+                          <td>Chavez</td>
+                          <td>10</td>
+                          <td><button class="btn btn-link" data-toggle="modal" data-target="#calificacion"><span class="glyphicon glyphicon-pencil"></span></button></td>
+                        </tr>
+                        <tr>
+                          <td>10013</td>
+                          <td>Juan</td>
+                          <td>Chavez</td>
+                          <td>7</td>
+                          <td><button class="btn btn-link" data-toggle="modal" data-target="#calificacion"><span class="glyphicon glyphicon-pencil"></span></button></td>
+                        </tr>
+                        <tr>
+                          <td>10014</td>
+                          <td>Laura</td>
+                          <td>Aguilar</td>
+                          <td>8</td>
+                          <td><button class="btn btn-link" data-toggle="modal" data-target="#calificacion"><span class="glyphicon glyphicon-pencil"></span></button></td>
+                        </tr>
+                        <tr>
+                          <td>10015</td>
+                          <td>Mariana</td>
+                          <td>Flores</td>
+                          <td>10</td>
+                          <td><button class="btn btn-link" data-toggle="modal" data-target="#calificacion"><span class="glyphicon glyphicon-pencil"></span></button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="modal fade" id="calificacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Nueva Calificacion</h4>
+                      </div>
+                      <div class="modal-body">
+                        <label for="Calificacion-nueva">Calificacion</label>
+                        <input type="text" name="Calificacion-nueva" id="Calificacion-nueva" class="form-control input-xs"/>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+               
             </div>
         </div>
     </div>
