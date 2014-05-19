@@ -1,18 +1,79 @@
 <div class="col-md-9">
-	<div class="row">
+    <div class="row">
         <div class="panel panel-default">
             <div class="panel-heading">
-            	 <!-- Nav tabs -->
-                <ul class="nav nav-tabs">
-                    Nueva Formacion
-                </ul>
+                Registrar Aspirante a curso
             </div>
             <div class="panel-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, a fugit porro laboriosam totam neque dolorem voluptas at placeat ad assumenda sapiente similique iste eos sed ducimus amet adipisci animi.
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form role="form">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <label for="nombre-curso">Id del aspirante:</label>
+                                    <input type="text" name="nombre-curso" id="nombre-curso" class="form-control input-xs" placeholder="Ingresa Nombre del aspirante"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <label for="nombre-curso">Nombre del curso:</label>
+                                    <input type="text" name="nombre-curso" id="nombre-curso" class="form-control input-xs" placeholder="Ingresa Nombre del Curso"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <hr>
+                    <legend>Datos del Aspirante</legend>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <form role="form">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-2 col-md-2">
+                                        <label>Id:<span></span></label>    
+                                    </div>
+                                    <div class="col-xs-12 col-sm-5 col-md-5">
+                                        <label>Nombre:<span></span></label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <label>Apellido Paterno:<span></span></label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <label>Apellido Materno:<span></span></label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div> 
+                    <hr>
+                    <legend>Datos del curso</legend>
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                            <form role="form">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-2 col-md-2">
+                                        <label>Id:<span></span></label>    
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <label>Nombre:<span></span></label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <label>Estatus:<span></span></label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-2 col-md-2">
+                                        <label>Cupo:<span></span></label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4">
+                                        <label>Docente:<span></span></label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                </div>
             </div>
             <div class="panel-footer">
-                Panel footer
+                <label for="buscar-curso"></label>
+                <button  type="submit" class="btn btn-primary"name="buscar-curso" id="buscar-curso">
+                   Registrar Aspirante
+                </button>
             </div>
         </div>
     </div>
+
 </div>
